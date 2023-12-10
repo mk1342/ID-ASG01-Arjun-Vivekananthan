@@ -14,6 +14,10 @@ header {
   background-color: #333;
   color: #fff;
   padding: 10px ;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 nav ul {
@@ -72,6 +76,12 @@ nav ul li a {
   padding: 20px;
 }
 
+.album-flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .album {
   border: 1px solid #ccc;
   padding: 10px;
@@ -98,4 +108,10 @@ nav ul li a {
   font-size: 14px;
   color: #666;
 }
-
+.specific-album.specific-album-content{
+  text-align: left;
+}
+footer{
+  background-color: #333;
+  color: white;
+}
