@@ -72,12 +72,6 @@ nav ul li a {
   padding: 20px;
 }
 
-.album-flex{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .album {
   border: 1px solid #ccc;
   padding: 10px;
@@ -104,10 +98,4 @@ nav ul li a {
   font-size: 14px;
   color: #666;
 }
-.specific-album.specific-album-content{
-  text-align: left;
-}
-footer{
-  background-color: #333;
-  color: white;
-}
+
