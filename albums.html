@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Fictional Band - Albums</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li class="dropdown" id="dropdown">
+          <a href="index.html">Home</a>
+        </li>
+        <!--For album dropdown-->
+        <li class="dropdown" id="dropdown">
+          <a href="albums.html">Albums</a>
+          <ul class="dropdown-content">
+            <li><a href="specific-album1.html">Album1</a></li>
+            <li><a href="specific-album2.html">Album2</a></li>
+            <li><a href="specific-album3.html">Album3</a></li>
+            <li><a href="specific-album4.html">Album4</a></li>
+          </ul>
+        </li>
+        <!--End of album dropdown-->
+        <li><a href="tour.html">Tour</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <main>
+    <section class="albums">
+      <h2>Albums</h2>
+      <div class="album-grid">
+        <div class="album">
+          <a href="specific-album1.html" class="album-link">
+          <img src="album1.jpg" alt="Album 1">
+          <h3>Album 1 Title</h3>
+          </a>
+        </div>
+        
+        <div class="album">
+          <a href="specific-album2.html" class="album-link">
+          <img src="album2.jpg" alt="Album 2">
+          <h3>Album 2 Title</h3>
+          </a>
+        </div>
+        
+        <div class="album">
+          <a href="specific-album3.html" class="album-link">
+          <img src="album3.jpg" alt="Album 3">
+          <h3>Album 3 Title</h3>
+          </a>
+        </div>        
+        
+        <div class="album">
+          <a href="specific-album4.html" class="album-link">
+          <img src="album4.jpg" alt="Album 4">
+          <h3>Album 4 Title</h3>
+          </a>
+        </div>
+      
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 The Fictional Band. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
