@@ -1,5 +1,9 @@
 /* Reset default browser styles */
 body,
+
+main h2{
+  font-family:'Playfair Display', serif
+}
 ul {
   margin: 0;
   padding: 0;
@@ -9,7 +13,7 @@ ul {
 header {
   background-color: #333;
   color: #fff;
-  padding: 10px 0;
+  padding: 10px ;
 }
 
 nav ul {
@@ -77,6 +81,11 @@ nav ul li a {
 .album {
   border: 1px solid #ccc;
   padding: 10px;
+}
+
+.album h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
 }
 
 .album img {
