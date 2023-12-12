@@ -1,7 +1,7 @@
 body,
 
 body{
-  background-image: url("background-image.jpg");
+  background-image: url("images/background-image.jpg");
   background-repeat: no-repeat;
 }
 main h2{
@@ -154,14 +154,28 @@ footer{
   height: 60px;   
   background: #136692;
 }
-.tour-content{
+.tour1-content{
   display: flex;
   flex-direction: row;
-  padding: 200px 0px 0px 0px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
   color: white;
   border: 1px solid #666;
   border-radius: 5px;
   font-size: 35px;
+}
+.tour2-content{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: white;
+  border: 1px solid #666;
+  border-radius: 5px;
+  font-size: 35px;
+  text-align: right;
 }
 .contact{
   color: white;
